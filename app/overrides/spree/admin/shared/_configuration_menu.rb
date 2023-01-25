@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'deface'
 
 Deface::Override.new(
   virtual_path: 'spree/admin/shared/_taxes_tabs',
